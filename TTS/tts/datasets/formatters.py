@@ -113,7 +113,7 @@ def ljspeech(root_path, meta_file, **kwargs):  # pylint: disable=unused-argument
     https://keithito.com/LJ-Speech-Dataset/"""
     txt_file = os.path.join(root_path, meta_file)
     items = []
-    speaker_name = "ljspeech"
+    speaker_name = "p225"
     with open(txt_file, "r", encoding="utf-8") as ttf:
         for line in ttf:
             cols = line.split("|")
